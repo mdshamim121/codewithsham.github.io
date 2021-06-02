@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Sigmar+One&family=Ubuntu:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Noto+Sans&family=Sigmar+One&family=Ubuntu:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Padauk&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 50%;
+  height: 50%;
+  border: 4px solid rgb(3, 101, 104);
+  border-radius: 150px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+.nav-list {
+  width: 50%;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.nav-list li a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.rightnav {
+  /* background-color: purple; */
+  width: 50%;
+  text-align: right;
+  padding: 0 23px;
+}
+
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid rgb(3, 101, 104);
+  border-radius: 12px;
+}
+.background {
+  background: rgba(0, 0, 0, 0.5) url(/img/bg3.png);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.firstsection {
+  height: 100vh;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+
+  max-width: 70%;
+  margin: auto;
+  height: 70%;
+}
+.fhalf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.shalf {
+  width: 30%;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.shalf img {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 183px;
+  border: 8px solid rgb(3, 101, 104);
+}
+
+.text-big {
+  font-size: 40px;
+  font-family: "Noto Sans", sans-serif;
+  color: rgb(3, 101, 104);
+}
+
+.font {
+  font-family: "Sigmar One", cursive;
+  font-size: 50px;
+}
+.text-small {
+  font-size: 20px;
+  font-family: "Abel", sans-serif;
+}
+
+.btn {
+  padding: 8px 20px;
+  margin: 8px 3px;
+  border: 2px solid white;
+  border-radius: 8px;
+  /* font-size: 18px; */
+  background: none;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(3, 101, 104);
+  font-size: 18px;
+}
+.btn:hover {
+  background-color: white;
+  color: rgb(3, 101, 104);
+  border: 2px solid rgb(3, 101, 104);
+}
+.btn-sm {
+  padding: 5px 10px;
+  vertical-align: middle;
+}
+.section {
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 85%;
+  margin: auto;
+}
+section img {
+  width: 250px;
+  height: 250px;
+  border: 2px solid teal;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.secbg{
+  /* background:rgba(0, 0, 0, 0.5) url(/img/bg6.jpg); */
+  background-color: rgb(232, 224, 224);
+}
+.left {
+  flex-direction: row-reverse;
+}
+.paras {
+  padding: 0px 50px;
+}
+
+.contact {
+  /* background-color: rgba(247, 247, 239, 0.878); */
+  /* background: rgba(70, 41, 41, 0.9) url(/img/bg6.png); */
+  background-image: url(/img/bg6.jpg);
+  background-size: 100%;
+  background-position: center;
+  width: px;
+  height: 100vh;
+}
+
+.text-center {
+  text-align: center;
+  font-family: "Sigmar One", cursive;
+  font-size: 40px;
+  /* font-family: 'Abel', sans-serif; */
+  padding: 7px;
+  padding-top: 30px;
+  color: rgb(3, 101, 104);
+}
+.form {
+  max-width: 800px;
+  margin: 25px auto;
+  padding-top: 50px;
+}
+.form-input {
+  width: 100%;
+  font-size: 19px;
+  border: 2px solid teal;
+  border-radius: 6px;
+  margin: 14px 0px;
+  padding: 5px 5px;
+  background: lightcyan;
+}
+.text-footer {
+  text-align: center;
+  /* font-family: "Sigmar One", cursive; */
+  font-size: 26px;
+  font-family: "Abel", sans-serif;
+  padding: 8px;
+
+  color: white;
+  background-color: teal;
+}
